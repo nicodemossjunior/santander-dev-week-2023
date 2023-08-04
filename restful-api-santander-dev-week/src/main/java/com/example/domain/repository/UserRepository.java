@@ -7,5 +7,8 @@ import com.example.domain.model.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
+	
+	//Do a join in another table 'Account'
+	boolean existsByAccountNumber(String accountNumber);
 
 }
