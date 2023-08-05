@@ -28,7 +28,7 @@ dependencies {
 
 tasks {
     bootJar {
-        archiveFileName.set("santander-dev-week.jar")
+        archiveFileName.set("santander-dev-week-${project.version}.jar")
     }
     manifest {
 		attributes["Main-Class"] = "com.example.Application"
