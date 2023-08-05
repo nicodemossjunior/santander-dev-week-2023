@@ -31,7 +31,7 @@ tasks {
         archiveFileName.set("santander-dev-week.jar")
     }
     manifest {
-		attributes["Main-Class"] = "me.dio.Application"
+		attributes["Main-Class"] = "com.example.Application"
 	}
 }
 
