@@ -1,7 +1,7 @@
 # Santander Dev Week 2023
 Java RESTFul API created to Santander Dev Week
 
-## Diagrama de Classes
+## Class Diagram
 
 ```mermaid
 classDiagram
